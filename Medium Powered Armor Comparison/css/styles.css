@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+table {
+    display: block;
+    table-layout: fixed;
+    background-color: black;
+    margin: auto;
+    width: fit-content;
+    border-collapse: collapse;
+}
+
+th {
+    border: solid black 2px;
+    color: lightgrey;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+    overflow-wrap: normal;
+    width: 50px;
+}
+
+.arrowbutton {
+    font-weight: bold;
+}
+
+.blank {
+    background-color: black;
+}
+
+td {
+    background-color: lightgray;
+    color: black;
+    border: solid black 2px;
+    border-bottom: 0;
+    border-top: 0;
+    height: 25px;
+    text-align: center;
+}
+
+.darkrow {
+    background-color: rgb(165, 165, 165);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
